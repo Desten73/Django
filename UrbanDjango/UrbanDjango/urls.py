@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from example1.views import main_page, Index2
 from task2.views import func_page, BaseClassPage
-from task3.views import platform_page, cart_page, games_page
+from task4.views import platform_page, cart_page, games_page
 
 
 urlpatterns = [
