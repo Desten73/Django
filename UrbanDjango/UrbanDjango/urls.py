@@ -19,6 +19,7 @@ from django.urls import path
 from example1.views import main_page, Index2
 from task2.views import func_page, BaseClassPage
 from task4.views import platform_page, cart_page, games_page
+from task5.views import registration_page, registration_page_django, test
 
 
 urlpatterns = [
@@ -30,4 +31,7 @@ urlpatterns = [
     path("platform/", platform_page),
     path("cart/", cart_page),
     path("games/", games_page),
+    path("http_sign_up/", registration_page),
+    path("django_sign_up/", registration_page_django),
+    path("test/", test),
 ]
